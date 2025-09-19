@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>NovaLaunch &mdash; Launch Your Next Big Idea</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container">
+        <a class="logo" href="#hero">NovaLaunch</a>
+        <nav class="site-nav" aria-label="Primary">
+          <button class="nav-toggle" aria-expanded="false" aria-controls="primary-navigation">
+            <span class="sr-only">Toggle navigation</span>
+            <span></span>
+            <span></span>
+            <span></span>
+          </button>
+          <ul id="primary-navigation" class="nav-list">
+            <li><a href="#features">Features</a></li>
+            <li><a href="#testimonials">Testimonials</a></li>
+            <li><a href="#pricing">Pricing</a></li>
+            <li><a href="#faq">FAQ</a></li>
+            <li><a href="#contact" class="btn btn-secondary">Get in touch</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section id="hero" class="hero">
+        <div class="container hero__content">
+          <div class="hero__copy" data-reveal>
+            <span class="badge">New</span>
+            <h1>Launch products that delight from day one.</h1>
+            <p>
+              NovaLaunch gives modern startups the tools to plan, build, and
+              ship experiences that customers love. Collaborate with your team,
+              centralize roadmaps, and deliver value faster.
+            </p>
+            <div class="hero__actions">
+              <a class="btn btn-primary" href="#pricing">Start your free trial</a>
+              <a class="btn btn-link" href="#features">See how it works</a>
+            </div>
+            <dl class="hero__stats">
+              <div>
+                <dt>4.9/5</dt>
+                <dd>Average customer rating</dd>
+              </div>
+              <div>
+                <dt>+120K</dt>
+                <dd>Projects launched</dd>
+              </div>
+              <div>
+                <dt>98%</dt>
+                <dd>Teams stay after their trial</dd>
+              </div>
+            </dl>
+          </div>
+          <div class="hero__visual" aria-hidden="true" data-reveal>
+            <div class="orb orb--primary"></div>
+            <div class="orb orb--secondary"></div>
+            <div class="dash-card">
+              <span class="dash-card__label">Launch checklist</span>
+              <ul>
+                <li>
+                  <span>Invite your crew</span>
+                  <span class="status status--complete">Done</span>
+                </li>
+                <li>
+                  <span>Plan milestone</span>
+                  <span class="status status--progress">In progress</span>
+                </li>
+                <li>
+                  <span>Ship the release</span>
+                  <span class="status status--up-next">Next</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="features" class="section section--light" data-reveal>
+        <div class="container">
+          <div class="section__heading">
+            <span class="badge">Features</span>
+            <h2>Everything you need to go from idea to impact.</h2>
+            <p>
+              NovaLaunch is your command center for product execution. Get
+              clarity, align teams, and automate the busywork so you can focus
+              on what matters.
+            </p>
+          </div>
+          <div class="grid grid--features">
+            <article class="feature-card" data-reveal>
+              <div class="feature-card__icon">🚀</div>
+              <h3>Smart roadmaps</h3>
+              <p>
+                Prioritize with confidence using data-powered insights and
+                customer feedback.
+              </p>
+            </article>
+            <article class="feature-card" data-reveal>
+              <div class="feature-card__icon">🤝</div>
+              <h3>Collaborative spaces</h3>
+              <p>
+                Work together in real-time, align on goals, and keep everyone
+                on the same page.
+              </p>
+            </article>
+            <article class="feature-card" data-reveal>
+              <div class="feature-card__icon">📊</div>
+              <h3>Live reporting</h3>
+              <p>
+                Track progress, surface trends, and celebrate wins with
+                beautiful dashboards.
+              </p>
+            </article>
+            <article class="feature-card" data-reveal>
+              <div class="feature-card__icon">🧠</div>
+              <h3>AI copilots</h3>
+              <p>
+                Automate repetitive tasks, summarize updates, and get guidance
+                when you need it most.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section--dark" data-reveal>
+        <div class="container stats">
+          <div data-reveal>
+            <h2>Built to scale with you</h2>
+            <p>
+              From your first MVP to your millionth customer, NovaLaunch stays
+              reliable, secure, and blazing fast.
+            </p>
+          </div>
+          <dl>
+            <div data-reveal>
+              <dt>Worldwide uptime</dt>
+              <dd>99.98%</dd>
+            </div>
+            <div data-reveal>
+              <dt>Data centers</dt>
+              <dd>12 global regions</dd>
+            </div>
+            <div data-reveal>
+              <dt>Security certifications</dt>
+              <dd>SOC2, ISO27001, GDPR</dd>
+            </div>
+          </dl>
+        </div>
+      </section>
+
+      <section id="testimonials" class="section section--light" data-reveal>
+        <div class="container">
+          <div class="section__heading">
+            <span class="badge">Loved by teams everywhere</span>
+            <h2>What product leaders are saying</h2>
+          </div>
+          <div class="grid grid--testimonials">
+            <figure class="testimonial-card" data-reveal>
+              <blockquote>
+                “NovaLaunch keeps our roadmap, engineering, and marketing teams
+                perfectly aligned. We ship faster and with more confidence than
+                ever before.”
+              </blockquote>
+              <figcaption>
+                <strong>Mia Robertson</strong>
+                <span>VP of Product, Orbit Labs</span>
+              </figcaption>
+            </figure>
+            <figure class="testimonial-card" data-reveal>
+              <blockquote>
+                “The automation suite saves us hours every week. Our standups
+                are tighter, and our releases are smoother.”
+              </blockquote>
+              <figcaption>
+                <strong>Jordan Hayes</strong>
+                <span>CTO, Beacon Systems</span>
+              </figcaption>
+            </figure>
+            <figure class="testimonial-card" data-reveal>
+              <blockquote>
+                “A single source of truth for our entire product org. The
+                insights alone have paid for the platform tenfold.”
+              </blockquote>
+              <figcaption>
+                <strong>Linh Tran</strong>
+                <span>Head of Product Ops, Velocity</span>
+              </figcaption>
+            </figure>
+          </div>
+        </div>
+      </section>
+
+      <section id="pricing" class="section section--accent" data-reveal>
+        <div class="container">
+          <div class="section__heading">
+            <span class="badge">Pricing</span>
+            <h2>Simple plans for every stage</h2>
+          </div>
+          <div class="grid grid--pricing">
+            <article class="pricing-card" data-reveal>
+              <h3>Starter</h3>
+              <p class="pricing-card__price">$0<span>/mo</span></p>
+              <ul>
+                <li>Unlimited ideas</li>
+                <li>Up to 5 seats</li>
+                <li>Community support</li>
+              </ul>
+              <a class="btn btn-secondary" href="#contact">Join for free</a>
+            </article>
+            <article class="pricing-card pricing-card--featured" data-reveal>
+              <div class="badge badge--inverse">Popular</div>
+              <h3>Growth</h3>
+              <p class="pricing-card__price">$49<span>/mo</span></p>
+              <ul>
+                <li>Everything in Starter</li>
+                <li>Unlimited seats</li>
+                <li>Advanced integrations</li>
+                <li>Priority chat support</li>
+              </ul>
+              <a class="btn btn-primary" href="#contact">Start 14-day trial</a>
+            </article>
+            <article class="pricing-card" data-reveal>
+              <h3>Scale</h3>
+              <p class="pricing-card__price">Let’s talk</p>
+              <ul>
+                <li>Dedicated success manager</li>
+                <li>Custom analytics</li>
+                <li>Enterprise-grade security</li>
+              </ul>
+              <a class="btn btn-link" href="#contact">Speak to sales</a>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="faq" class="section section--light" data-reveal>
+        <div class="container">
+          <div class="section__heading">
+            <span class="badge">FAQ</span>
+            <h2>Answers before you even ask</h2>
+          </div>
+          <div class="faq">
+            <details open data-reveal>
+              <summary>How long does setup take?</summary>
+              <p>
+                Most teams get up and running in under 30 minutes. Connect your
+                favorite tools and import your data with guided walkthroughs.
+              </p>
+            </details>
+            <details data-reveal>
+              <summary>Can I cancel any time?</summary>
+              <p>
+                Absolutely. Cancel in-app at any moment&mdash;your workspace
+                remains accessible until the end of the billing cycle.
+              </p>
+            </details>
+            <details data-reveal>
+              <summary>Do you offer discounts for startups?</summary>
+              <p>
+                Yes! Teams with fewer than 15 employees qualify for a 30%
+                discount on the Growth plan. Contact us to learn more.
+              </p>
+            </details>
+            <details data-reveal>
+              <summary>Is my data secure?</summary>
+              <p>
+                We encrypt data in transit and at rest, undergo regular third
+                party audits, and maintain compliance with industry-leading
+                standards.
+              </p>
+            </details>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="section section--dark" data-reveal>
+        <div class="container contact">
+          <div class="contact__copy" data-reveal>
+            <h2>Ready to launch?</h2>
+            <p>
+              Schedule a personalized walkthrough with our product specialists.
+              We’ll help you tailor NovaLaunch to your workflow.
+            </p>
+          </div>
+          <form class="contact__form" action="#" method="post" data-reveal>
+            <label>
+              Name
+              <input type="text" name="name" placeholder="Jamie Rivera" required />
+            </label>
+            <label>
+              Work email
+              <input type="email" name="email" placeholder="you@company.com" required />
+            </label>
+            <label>
+              Team size
+              <select name="team-size">
+                <option value="1-5">1-5</option>
+                <option value="6-20">6-20</option>
+                <option value="21-50">21-50</option>
+                <option value="51+">51+</option>
+              </select>
+            </label>
+            <label>
+              What would you like to accomplish?
+              <textarea name="message" rows="4" placeholder="Share your goals"></textarea>
+            </label>
+            <button class="btn btn-primary" type="submit">Request a demo</button>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container">
+        <a class="logo" href="#hero">NovaLaunch</a>
+        <p>&copy; <span id="current-year"></span> NovaLaunch Labs. All rights reserved.</p>
+        <ul class="footer-links">
+          <li><a href="#">Privacy</a></li>
+          <li><a href="#">Terms</a></li>
+          <li><a href="#">Status</a></li>
+        </ul>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
